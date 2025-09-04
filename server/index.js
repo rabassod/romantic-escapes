@@ -54,5 +54,9 @@ app.post("/api/confirm", (req, res) => {
   res.json({ confirmation: code });
 });
 
+app.get("/", (req, res) => {
+  res.send("API Romantic Escapes funcionando 🚀");
+});
+
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`API on http://localhost:${port}`));
