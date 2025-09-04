@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "categoria": "Internacional",
+    "destino": "París",
+    "titulo": "Escapada romántica a París",
+    "descripcion": "Un viaje inolvidable con tu pareja en la ciudad del amor.",
+    "precio": 899,
+    "moneda": "EUR",
+    "duracion": "3 días",
+    "rating": 4.8,
+    "etiqueta": "Top Ventas",
+    "color": "bg-pink-200",
+    "itinerario": [
+      { "dia": 1, "plan": "Tour por Montmartre y cena con vistas a la Torre Eiffel" },
+      { "dia": 2, "plan": "Museo del Louvre y picnic en Jardines de Luxemburgo" },
+      { "dia": 3, "plan": "Crucero romántico por el Sena" }
+    ]
+  }
+]
