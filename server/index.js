@@ -5,7 +5,9 @@ import Stripe from "stripe";
 import { z } from "zod";
 import packsRouter from "./routes/packs.js";
 import { generateToken } from "./auth.js";
-import packs from "./packs.json" assert { type: "json" };
+import fs from "fs";
+
+const packs = JSON.parse(fs.readFileSync("./packs.json", "utf-8"));
 
 const app = express();
 app.use(cors());
